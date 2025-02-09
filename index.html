@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WFM Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="OIP.jpg" alt="Chatbot Logo">
+            <span class="chatbox-header">WFM CHATBOT</span>
+        </div>
+        <div class="menu">
+            <a href="#">Sign Up</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+    <div class="chatbox-container">
+        <div class="chatbox">
+            <div class="chatbox-body" id="chatbox-body">
+                <!-- Messages will be appended here -->
+            </div>
+            <div class="chatbox-footer">
+                <input type="text" id="user-input" placeholder="Type your message here...">
+                <button id="send-button">Send</button>
+                <button id="voice-button">🎤</button>
+            </div>
+        </div>
+    </div>
+    <button id="new-chat" class="new-chat-button">New Chat</button>
+    <script src="script.js"></script>
+</body>
+</html>
